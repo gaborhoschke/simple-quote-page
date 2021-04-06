@@ -91,3 +91,28 @@ body {
   text-align: center;
   color:rgb(93, 79, 221)
 }
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    border-style: none;
+    border-spacing: 15px;
+}
+
+img {
+    border: 1px solid rgb(170, 166, 166);
+    width: auto;
+    height: 50 px;
+    filter: contrast(.8)
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    left: 50%;
+    top: 50%;
+  }
+
+  img:hover {
+    transform: scale(1.4);
+    filter:contrast(200%)
+  }
+
